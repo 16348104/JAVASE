@@ -1,10 +1,8 @@
 package hello;
-
 import java.util.Scanner;
-
 /**
  * Created by zb on 2016/9/18.
- * 正序分解整数
+ * 分解整数
  */
 public class Order {
     public static void main(String[] args) {
