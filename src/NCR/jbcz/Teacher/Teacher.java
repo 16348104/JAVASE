@@ -16,6 +16,7 @@ public class Teacher {
         return birth;          //定义get方法作为返回birth变量值
     }
 
+
     public static void main(String[] args) {
         Teacher teacher = new Teacher();//创建对象
         teacher.setTeacher("邓小平", 1970, 8, 9);//调用set方法初始化
