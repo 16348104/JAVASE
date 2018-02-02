@@ -3,7 +3,7 @@ package NCR.jbcz.Accessobj;
 /**
  * Created by zb on 2018/2/1.
  */
-public class Point {
+public class Point {    //访问对象的变量和调用方法
     int x, y;
 
     Point() {
