@@ -2,6 +2,7 @@ package NCR.jbcz.eacher;
 
 /**
  * Created by zb on 2018/2/2.
+ * 对象作为方法参数
  */
 public class Date {
     int year;
