@@ -4,11 +4,11 @@ package NCR.jbcz.TestUniversityStudent;
  * Created by zb on 2018/2/5.
  */
 public class UniversityStudent extends Student {
-    String unversity;
+    String university;
 
-    public UniversityStudent(String name, String department, String unversity) {
+    public UniversityStudent(String name, String department, String university) {
         super(name, department);
-        this.unversity = unversity;
+        this.university = university;
     }
 }
 
