@@ -22,4 +22,4 @@ public class AutTypeTransition {
     }
 }
 
-
+//byte--int--long-float--double
