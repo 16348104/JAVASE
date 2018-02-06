@@ -1,4 +1,4 @@
-package NCR.jbcz;
+package NCR.jbcz.L31;
 
 /**
  * Created by zb on 2018/2/5.
