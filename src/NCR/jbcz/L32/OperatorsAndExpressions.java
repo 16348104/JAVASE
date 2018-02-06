@@ -15,6 +15,10 @@ public class OperatorsAndExpressions {
         float z = 12.5f, w = 5.5f;
         System.out.println(z + w);//两个操作数都是float型，结果是float型
         System.out.println(z - x);//结果为9.5f
+        int i = 10, j = 3;
+        float m = 213.5f, n = 4.5f;//取模运算在整数和浮点数之间应用
+        System.out.println(i % j);
+        System.out.println(m % n);
     }
 
     public static void main(String[] args) {
