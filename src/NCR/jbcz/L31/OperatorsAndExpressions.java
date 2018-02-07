@@ -13,7 +13,6 @@ public class OperatorsAndExpressions {
         System.out.println((i++) * (j--));
         System.out.println("i=" + i + ",j=" + j);
         System.out.println((--m) * (n++));
-
         System.out.println("m=" + m + ",n=" + n);
         System.out.println((m--) * (n++));
         System.out.println("m=" + m + ",n=" + n);
