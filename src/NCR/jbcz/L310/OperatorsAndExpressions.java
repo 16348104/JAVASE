@@ -1,4 +1,5 @@
 package NCR.jbcz.L310;
+
 /*!的优先级最高，其次关系表达式，然后是&&，最后是||*/
 public class OperatorsAndExpressions {
     void priorityOfRelationOperator() {
@@ -12,8 +13,6 @@ public class OperatorsAndExpressions {
     public static void main(String[] args) {
         OperatorsAndExpressions operatorsAndExp = new OperatorsAndExpressions();
         operatorsAndExp.priorityOfRelationOperator();
-
-
     }
 
 
