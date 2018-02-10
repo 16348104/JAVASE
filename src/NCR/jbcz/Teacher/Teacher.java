@@ -24,4 +24,5 @@ public class Teacher {
         teacher.getBirth().showDate();//调用get方法返回birth对象，再调用对象show方法显示生日；
     }
 
+
 }
