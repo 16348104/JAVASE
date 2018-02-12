@@ -1,4 +1,4 @@
-package NCR.jbcz;
+package hello;
 
 /**
  * Created by zb on 2017/8/18.
