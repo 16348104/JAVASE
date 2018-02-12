@@ -15,7 +15,8 @@ public class Operators {
         }
         MyValue v1 = new MyValue();
         MyValue v2 = new MyValue();
-        v1.i = v2.i=2;
+        v1.i = v2.i=2
+        ;
         System.out.println(v1.equals(v2));
 
     }
