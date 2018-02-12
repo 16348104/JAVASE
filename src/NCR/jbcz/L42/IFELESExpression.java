@@ -9,7 +9,7 @@ import static java.lang.Math.random;
 public class IFELESExpression {
     public static void main(String[] args) {
         int y = (int) (random() * 2000) + 1;
-        if ((y % 4 == 0)&& (y % 100 != 0) || (y % 400 == 0)) {
+        if ((y % 4 == 0) && (y % 100 != 0) || (y % 400 == 0)) {
             System.out.println(y + "年不是闰年");
         } else {
             System.out.println(y + "年不是闰年");
