@@ -21,10 +21,10 @@ public class SwitchStatement {
                 System.out.println("本月" + date + "日是星期三");
                 break;
             case 4:
-                System.out.println("本月"+date+"日是星期四");
+                System.out.println("本月" + date + "日是星期四");
                 break;
             case 5:
-                System.out.println("本月"+date+"日是星期五");
+                System.out.println("本月" + date + "日是星期五");
                 break;
             case 6:
                 System.out.println("本月" + date + "日是星期六");
