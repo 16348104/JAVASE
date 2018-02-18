@@ -6,12 +6,12 @@ package NCR.jbcz.L46;
  */
 public class DoWhileStatement {
     public static void main(String[] args) {
-//        char c = (char) ('A' + (int) (Math.random() * 26));
-        char c = 'a';
-        System.out.print((int) c);
-     /*   do {
+        char c = (char) ('A' + (int) (Math.random() * 26));
+//        char c = 'a';
+//        System.out.print(c);
+        do {
             c = (char) ('A' + (int) (Math.random() * 26));
-            System.out.print(c + ',');
-        } while (c != 'Z');*/
+            System.out.print(c + ",");
+        } while (c != 'Z');
     }
 }
