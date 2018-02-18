@@ -6,7 +6,7 @@ package NCR.jbcz.L46;
  */
 public class DoWhileStatement {
     public static void main(String[] args) {
-        char c = (char) ('A' + (int) (Math.random() * 26));
+        char c;
 //        char c = 'a';
 //        System.out.print(c);
         do {
