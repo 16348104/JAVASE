@@ -2,6 +2,7 @@ package NCR.jbcz.L47;
 
 /**
  * Created by dell on 2018/2/18.
+ * 1-9乘法口诀
  */
 public class ForLoopStatement {
     public static void main(String[] args) {
