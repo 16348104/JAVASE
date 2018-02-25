@@ -5,8 +5,8 @@ package NCR.jbcz.L62;
  */
 public class RunExcept {
     public static void main(String[] args) {
-        int i=8;
-        int j=8;
+        int i = 8;
+        int j = 8;
         int s = 40 / (i - j);
     }
 }
