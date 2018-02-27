@@ -15,6 +15,10 @@ public class Date {
         day = d;
     }
 
+    public Date() {
+
+    }
+
     void showDate() {
         System.out.println(year + ',' + month + ',' + day);
     }
