@@ -7,6 +7,7 @@ import java.util.Stack;
 
 /**
  * Created by zb on 2018/2/28.
+ * 异常处理的原则
  */
 public class ExceptionTest {
     public static void main(String[] args) {
@@ -33,7 +34,7 @@ public class ExceptionTest {
 //                e.printStackTrace();
             }
         }
-            s2 = new Date().getTime();
-            System.out.println((s2 - s1) + "milliseconds");
+        s2 = new Date().getTime();
+        System.out.println((s2 - s1) + "milliseconds");
     }
 }
