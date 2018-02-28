@@ -15,7 +15,7 @@ public class Rethrow {
         } catch (Exception e) {
             System.out.println("Inside wq(), e.printStackTrace():");
             e.printStackTrace();//输出堆栈使用情况
-            throw e;
+            throw e;            //重新抛出异常
         }
     }
 
