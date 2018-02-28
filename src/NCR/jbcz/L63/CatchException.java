@@ -3,6 +3,7 @@ package NCR.jbcz.L63;
 
 /**
  * Created by zb on 2018/2/25.
+ * 捕获异常
  */
 public class CatchException {
     static void Example(int keg) {

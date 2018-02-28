@@ -2,6 +2,7 @@ package NCR.jbcz.L64;
 
 /**
  * Created by zb on 2018/2/28.
+ * 声明抛出异常
  */
 public class ThrowsExceptionLis {
     static void Example(int keg) throws ArithmeticException, ArrayIndexOutOfBoundsException {
