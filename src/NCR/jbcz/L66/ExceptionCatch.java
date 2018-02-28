@@ -18,7 +18,6 @@ public class ExceptionCatch {
             e.printStackTrace(System.out);
         } catch (IOException e) {
             System.out.println(e);
-
         }
     }
 }
