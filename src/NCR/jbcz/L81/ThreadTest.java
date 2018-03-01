@@ -2,6 +2,7 @@ package NCR.jbcz.L81;
 
 /**
  * Created by zb on 2018/3/1.
+ * 多线程
  */
 public class ThreadTest {
     public static void main(String[] args) {
