@@ -9,6 +9,5 @@ public class Test {
         Hello t2 = new Hello();
         t1.start();
         t2.start();
-
     }
 }
