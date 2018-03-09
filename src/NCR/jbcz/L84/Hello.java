@@ -13,18 +13,17 @@ public class Hello implements Runnable {
     //每隔10ms输出两行Hello
     public void run() {
         while (!timeToQuit) {
-            System.out.println("hello" + i++);
+            System.out.println("Hello" + i++);
             try {
                 if (i % 2 == 0) {
-                    Thread.sleep(10);
+                    Thread.sleep(5000);
                 }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+//                e.printStackTrace();
             }
         }
 
     }
-
     public void stopRuning() {
         timeToQuit = true;
     }
