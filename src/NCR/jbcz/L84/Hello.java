@@ -9,7 +9,7 @@ public class Hello implements Runnable {
 
 
     @Override
-    //每隔10ms输出两行Hello
+    //每隔5000ms输出两行Hello
     public void run() {
         while (!timeToQuit) {
             System.out.println("Hello" + i++);
