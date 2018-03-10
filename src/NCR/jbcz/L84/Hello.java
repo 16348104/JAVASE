@@ -23,6 +23,7 @@ public class Hello implements Runnable {
         }
 
     }
+
     public void stopRuning() {
         timeToQuit = true;
     }

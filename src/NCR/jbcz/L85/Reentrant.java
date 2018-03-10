@@ -2,6 +2,7 @@ package NCR.jbcz.L85;
 
 /**
  * Created by zb on 2018/3/9.
+ * synchronized临界区
  */
 public class Reentrant {
     public synchronized void a(){
