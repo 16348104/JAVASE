@@ -2,6 +2,7 @@ package NCR.jbcz.L86;
 
 /**
  * Created by dell on 2018/3/11.
+ * 消费者run()消费者如run()声明了消费者的行为
  */
 public class Consumer extends Thread {//消费者
     private SyncStack theStack;

@@ -2,6 +2,7 @@ package NCR.jbcz.L86;
 
 /**
  * Created by dell on 2018/3/10.
+ * 生产者如run()声明了生产值的行为
  */
 public class Producer implements Runnable {
     private SyncStack theStack;
