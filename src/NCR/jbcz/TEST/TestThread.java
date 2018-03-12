@@ -14,7 +14,7 @@ public class TestThread extends Thread{
     public void run() {
         for (int i = 0; i < 2; i++) {
             try {
-                sleep(1000);
+                sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
