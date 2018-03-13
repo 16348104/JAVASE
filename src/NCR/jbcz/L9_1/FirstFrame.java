@@ -1,7 +1,6 @@
 package NCR.jbcz.L9_1;
 
 import java.awt.*;
-
 public class FirstFrame extends Frame {
     public static void main(String[] args) {
         FirstFrame firstFrame = new FirstFrame("first container!");//构造方法
