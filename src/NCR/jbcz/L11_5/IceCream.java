@@ -8,8 +8,8 @@ public class IceCream {
     //创建对象有10个String对象
     static String[] breed = {"巧克力", "香草", "草莓", "朗姆酒", "咖啡", "果仁", "香芋", "绿茶", "榛子", "葡萄干"};
 
-    static String[] breedSet(int n) {
-        n = Math.abs(n) % (breed.length + 1);         //n
+    static String[] breedSet(int n) {                 //产生随机排列的数组，长度由参数n确定
+        n = Math.abs(n) % (breed.length + 1);         //n是正整数并且不越界
         String[] result = new String[n];
         int[] picks = new int[n];
         for (int i = 0; i < picks.length; i++) {
