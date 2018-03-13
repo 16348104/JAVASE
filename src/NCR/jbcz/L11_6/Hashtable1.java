@@ -19,6 +19,7 @@ public class Hashtable1 {
             str = (String) names.nextElement();
             System.out.println(str + ":" + balance.get(str));
         }
+        System.out.println("=========================================================");
         //在李闵账户存入1000元
         bal = ((Double) balance.get("李闵")).doubleValue();
         balance.put("李闵", new Double(bal + 1000));
