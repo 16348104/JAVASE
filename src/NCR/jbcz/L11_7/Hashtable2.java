@@ -27,7 +27,6 @@ public class Hashtable2 {
         //在李闵账户存入1000元
         bal = ((Double) balance.get("李闵")).doubleValue();
         balance.put("李闵", new Double(bal + 1000));
-        System.out.println("李闵的新余额："+balance.get("李闵"));
-
+        System.out.println("李闵的新余额：" + balance.get("李闵"));
     }
 }
