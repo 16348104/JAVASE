@@ -14,6 +14,7 @@ public class ListExample {
         list.add("java");
         list.add(new Integer(2008));
         list.add("谢谢！");
+        list.add(new Integer(2008));//元素允许重复
         System.out.println(list);
     }
 }
