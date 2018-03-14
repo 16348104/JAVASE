@@ -24,12 +24,12 @@ public class TestNesting {
         f.add(bc, "Center");
         p = new Panel();
         p.setLayout(new BorderLayout());
-        f.add(p, "North");
+        f.add(p, "North");//面板P作为一个组件添加到窗体
         bfile = new Button("File");
         bhelp = new Button("Help");
-        p.add(bfile, "North");
-        p.add(bhelp, "West");
-        p.add(ta, "Center");
+        p.add(bfile, "North");//按钮bfile被添加到面板P
+        p.add(bhelp, "West");//按钮bhelp被添加到面板P
+        p.add(ta, "Center");//文本域ta被添加到面板P
         f.pack();
         f.setVisible(true);
     }
