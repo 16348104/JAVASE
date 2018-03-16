@@ -11,9 +11,10 @@ import java.awt.event.WindowListener;
 /**
  * Created by zb on 2018/3/16.
  */
-public class TestAddListener implements ActionListener,WindowListener {
+public class TestAddListener implements ActionListener, WindowListener {
     Frame f;
     Button b;
+
     public void create() {
         f = new Frame("Add listens");
         b = new Button("press me");
