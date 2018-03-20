@@ -1,5 +1,4 @@
 package NCR.jbcz.TEST;
-
 import javax.swing.*;
 import java.awt.*;
 
