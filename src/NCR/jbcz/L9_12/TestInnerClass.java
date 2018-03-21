@@ -23,10 +23,35 @@ public class TestInnerClass {
     }
 
 
-    class MyMouseMotionLister extends MouseMotionAdapter {   //内部类开始
+    class MyMouseMotionLister extends MouseMotionAdapter implements MouseListener {   //内部类开始
         public void mouseDragged(MouseEvent e) {
             String s = "Mouse dragged: x=" + e.getX() + "y=" + e.getY();
             tf.setText(s);
+        }
+
+        @Override
+        public void mouseClicked(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mousePressed(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseReleased(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseEntered(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseExited(MouseEvent e) {
+
         }
     }                                                       //内部类结束
 
