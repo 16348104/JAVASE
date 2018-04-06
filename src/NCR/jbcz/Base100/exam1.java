@@ -7,20 +7,18 @@ package NCR.jbcz.Base100;
 public class exam1 {
     public static void main(String[] args) {
         int sum;
-
+        sum = 0;
         int arraylist[] = new int[20];
         for (int i = 0; i < arraylist.length; i++) {
             arraylist[i] = i + 1;
         }
         int pos = 0;
         while (pos < 20) {
-            if () {
+            if (pos < 20) {
                 sum = sum + arraylist[pos];
-
+                pos++;
             }
-            System.out.println("sum=" + sum);
         }
+        System.out.println("sum=" + sum);
     }
-
-
 }
