@@ -1,7 +1,7 @@
 package NCR.jbcz.Base100;
 /**
  * Created by dell on 2018/4/7.
- * 判断1990\2000\2008是否是闰年
+ * 判断年份1990\2000\2008是否是闰年
  */
 public class exam2 {
     public static void main(String[] args) {
