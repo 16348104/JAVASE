@@ -18,7 +18,7 @@ public class exam9 {
         int temp;
         i = 0;
         int j = 19;
-        while (i <= 9) {
+        while (i <10) {
             temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
