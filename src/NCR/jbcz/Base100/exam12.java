@@ -6,17 +6,18 @@ package NCR.jbcz.Base100;
  */
 public class exam12 {
     public static void main(String[] args) {
-        int n=8;
+        int n = 8;
         System.out.println(n + "!=" + Fac(n));
 
     }
 
     private static int Fac(int n) {
-        if () {
+        if (n == 1) {
             return 1;
         } else {
-            ;
+            return n * Fac(n - 1);
         }
-
     }
+
+
 }
