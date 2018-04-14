@@ -8,8 +8,8 @@ public class exam11 {
     public static void main(String[] args) {
         char c;
         do {
-            c = (int) ((Math.random() * 26) + 'A');
-            System.out.println(c + "");
+            c =(char) (Math.random() * 26+65);
+            System.out.print(c + " ,");
         } while (c != 'Q');
     }
 }
