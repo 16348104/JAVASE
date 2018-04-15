@@ -1,6 +1,4 @@
 package NCR.jbcz.Base100;
-
-import javax.imageio.event.IIOReadProgressListener;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
