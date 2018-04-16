@@ -7,7 +7,7 @@ package NCR.jbcz.Base100;
 public class exam17 {
     public static void main(String[] args) {
         String str = null;
-        str = "Chinese";
+        str = "China";
         int n = 0;
         n = str.length();
         char c;
