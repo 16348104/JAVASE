@@ -10,15 +10,15 @@ public class exam16 {
     public static void main(String[] args) {
         int arr1[] = {2, 4, 6, 8, 10};
         int arr2[] = {3, 5, 7, 9, 11, 13, 15, 17};
-        if () {
-            ;
+        if (arr1.length< arr2.length) {
+            System.arraycopy(arr1,0,arr2,0,arr1.length);
             for (int i = 0; i < arr2.length; i++) {
                 System.out.println(arr2[i]+"　");
             }
         } else {
-            ;
-            for (int i = 0; i < arr2.length; i++) {
-                System.out.println(arr2[i]+" ");
+            System.arraycopy(arr2,0,arr1,0,arr2.length);
+            for (int i = 0; i < arr1.length; i++) {
+                System.out.println(arr1[i]+" ");
             }
 
         }

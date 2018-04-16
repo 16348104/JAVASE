@@ -6,12 +6,12 @@ package NCR.jbcz.Base100;
  */
 public class exam17 {
     public static void main(String[] args) {
-        ;
+      /*  ;
         str = "China";
         int n = 0;
         ;
         char c;
         ;
-        System.out.println("字符串中共有" + n + "个字符,最后一个字符是:" + c);
+        System.out.println("字符串中共有" + n + "个字符,最后一个字符是:" + c);*/
     }
 }
