@@ -6,13 +6,15 @@ package NCR.jbcz.Base100;
  */
 public class exam18 {
     public static void main(String[] args) {
-        arr = new int[10];
+        int[] arr = new int[10];
         int i;
-        for (){
-
+        for (i = 0; i < arr.length; i++) {
+            arr[i] = i;
+            System.out.println("arr[" + i + "]=" + arr[i] + " ");
         }
-        for (){
-            System.out.println("arr["+i+"]="+arr[i]+" ");
+        System.out.println();
+        for (i = arr.length - 1; i >= 0; i--) {
+            System.out.println("arr[" + i + "]=" + arr[i] + " ");
         }
     }
 
