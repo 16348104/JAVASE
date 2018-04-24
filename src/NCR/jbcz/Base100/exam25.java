@@ -8,11 +8,11 @@ package NCR.jbcz.Base100;
 public class exam25 {
     public static void main(String[] args) {
         char c = '1';
-        ;
+        c = (char) (c + 3);
         System.out.println(c);
-        ;
+        c = (char) (c - 2);
         System.out.println(c);
-        ;
+        c = (char) (c + 5);
         System.out.println(c);
     }
 }
