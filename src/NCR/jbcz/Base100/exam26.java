@@ -17,8 +17,6 @@ public class exam26 {
             min = c;
         }
         System.out.println("min=" + min);
-
-
     }
 }
 
