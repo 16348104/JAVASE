@@ -6,9 +6,7 @@ package NCR.jbcz.Base100;
  */
 public class exam31 {
     public static void main(String[] args) {
-        for (int i = 0; i < ; i++) {
-            int i;
-        }
+        String str="My name is Tom,I come from China.";
         System.out.println();
     }
 }
