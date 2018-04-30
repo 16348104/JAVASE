@@ -19,7 +19,7 @@ public class exam29 {
         int ranNum = (int) (Math.random() * 10);/**随机数*/
         int guessNum = -1;
         String str;
-        while (ranNum != guessNum) {
+        while (guessNum != ranNum) {
             System.out.println("Please Input:");
             try {
                 str = in.readLine();
