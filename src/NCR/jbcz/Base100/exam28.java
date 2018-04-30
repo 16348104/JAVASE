@@ -11,7 +11,6 @@ public class exam28 {
         System.out.println(Add(a, b));
 
     }
-
     private static long Add(int a, int b) {
         int sum = 0;
         sum = a + b;
