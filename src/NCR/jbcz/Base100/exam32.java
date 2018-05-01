@@ -2,6 +2,7 @@ package NCR.jbcz.Base100;
 
 /**
  * Created by dell on 2018/5/1.
+ * 计算两个整数25和7的商和余数.
  */
 public class exam32 {
     public static void main(String[] args) {
