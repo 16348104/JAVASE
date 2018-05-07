@@ -8,12 +8,12 @@ package NCR.jbcz.Base100;
 public class exam33 {
     public static void main(String[] args) {
         String str = "China is a great country.";
-        String headstr=null;
-        String trailstr=null;
-        headstr = str.substring(0,5);
+        String headstr = null;
+        String trailstr = null;
+        headstr = str.substring(0, 5);
 //        trailstr = str.substring(5,str.length()-1);
         trailstr = str.substring(5);
-        System.out.println(headstr+trailstr);
+        System.out.println(headstr + trailstr);
     }
 
 }

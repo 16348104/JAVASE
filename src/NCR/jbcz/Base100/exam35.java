@@ -6,11 +6,11 @@ package NCR.jbcz.Base100;
  */
 public class exam35 {
     public static void main(String[] args) {
-        d=37.13;
+        d = 37.13;
         int i;
         ;
         double x;
         ;
-        System.out.println(d+"整数部分:"+i+",小数部分:"+x);
+        System.out.println(d + "整数部分:" + i + ",小数部分:" + x);
     }
 }
