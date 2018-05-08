@@ -9,10 +9,10 @@ public class exam34 {
     public static void main(String[] args) {
         String str = "Tadf$asdf&&*,[]qwer242";
         int i;
-        (i = 0;){
+        for (i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if () {
-                System.out.println(c);
+            if (!(c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')) {
+                System.out.print(c);
             }
         }
     }

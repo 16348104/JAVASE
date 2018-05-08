@@ -10,10 +10,10 @@ public class exam36 {
         int num = 365;
         int a, b, c;
         int temp = num;
-        ;
+        a=temp/100;
         temp = temp - a * 100;
-        ;
-        ;
+        b=temp/10;
+        c=temp%10;
         System.out.println(num + ",百位数字:" + a + ",十位数字:" + b + ",个位数字:" + c);
     }
 }
