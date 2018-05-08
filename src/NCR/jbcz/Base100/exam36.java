@@ -6,7 +6,6 @@ package NCR.jbcz.Base100;
  */
 public class exam36 {
     public static void main(String[] args) {
-
         int num = 365;
         int a, b, c;
         int temp = num;
