@@ -1,7 +1,4 @@
 package NCR.jbcz.Base100;
-
-import sun.security.util.Length;
-
 /**
  * Created by dell on 2018/4/30.
  * 找出字符串"My name is Tom,I come from China."中的大写字母,并打印出来
