@@ -15,8 +15,8 @@ public class exam43 {
         for (int i = 0; i < l; i++) {
             c1 = str1.charAt(i);
             c2 = str2.charAt(i);
-            if () {
-                ;
+            if (c1 != c2) {
+                break;
             }
         }
         if (c1 > c2) {
