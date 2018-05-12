@@ -10,12 +10,12 @@ public class exam47 {
         c1='A';
         c2='a';
         String string1 = new String("A"), string2 = new String("a");
-        if () {
+        if (c1==c2) {
             System.out.println(c1+"equals"+c2);
         } else {
             System.out.println(c1+"does not equals"+c2);
         }
-        if () {
+        if (string1.equals(string2)) {
             System.out.println(string1+"equals"+string2);
         } else {
             System.out.println(string1 + "does not equals" + string2);
