@@ -17,7 +17,7 @@ public class exam48 {
                 }
                 j++;
             }
-            j=0;
+            j = 0;
             i++;
         }
         System.out.println("The min:" + min);
