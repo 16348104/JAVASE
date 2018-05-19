@@ -12,7 +12,7 @@ public class exam52 {
         int len = arr.length;
         int i = 0;
         do {
-            if (((arr[i] >= 'A') && (arr[i] <= 'Z') )|| ((arr[i] >= 'a') && (arr[i] <= 'z'))) {
+            if ((arr[i] >= 'A' && arr[i] <= 'Z') || (arr[i] >= 'a' && arr[i] <= 'z')) {
                 str = str.concat(String.valueOf(arr[i]));
             }
             i++;
