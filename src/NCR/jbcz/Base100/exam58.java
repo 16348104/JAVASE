@@ -11,14 +11,15 @@ public class exam58 {
         int i = 0;
         while (i < score.length) {
             if (score[i] < 80) {
-                continue;
+                break;
+//                continue;
             }
             i++;
-            if (i > 0) {
-                System.out.println("有人未超过80分");
-            } else {
-                System.out.println("全部超过80分");
-            }
+        }
+        if (i != 0) {
+            System.out.println("有人未超过80分");
+        } else {
+            System.out.println("全部超过80分");
         }
     }
 
