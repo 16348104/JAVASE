@@ -7,8 +7,19 @@ package NCR.jbcz.Base100;
  */
 public class exam58 {
     public static void main(String[] args) {
-    int score[]={89,93,60,59,78,91};
-    int i=0;
+        int score[] = {89, 93, 60, 59, 78, 91};
+        int i = 0;
+        while (i < score.length) {
+            if (score[i] < 80) {
+                continue;
+            }
+            i++;
+            if (i > 0) {
+                System.out.println("有人未超过80分");
+            } else {
+                System.out.println("全部超过80分");
+            }
+        }
     }
 
 
