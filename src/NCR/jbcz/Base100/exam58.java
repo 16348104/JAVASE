@@ -16,7 +16,7 @@ public class exam58 {
             }
             i++;
         }
-        if (i != 0) {
+        if (i <score.length) {
             System.out.println("有人未超过80分");
         } else {
             System.out.println("全部超过80分");
