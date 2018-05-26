@@ -11,7 +11,7 @@ public class exam59 {
         System.out.println(str);
         str="\"c\\d\"";
         System.out.println(str);
-        str="'e/f'";
+        str="\'e/f\'";
         System.out.println(str);
 
     }
