@@ -1,7 +1,5 @@
 package NCR.jbcz.Base100;
 
-import javax.lang.model.element.NestingKind;
-
 /**
  * Created by dell on 2018/6/5.
  * 将字符串str（"Welcome to China!"）转化为一个字符数组c
@@ -11,10 +9,10 @@ public class exam65 {
     public static void main(String[] args) {
         String str = "Welcome to China!";
         char c[];
-        c = new char;
-        ;
+        c = new char[str.length()];
+        str.getChars(0, str.length(), c, 0);
         int i;
-        for (i = 0; i < str.length(); i++) {
+        for (i = c.length - 1; i >= 0; i--) {
             System.out.println(c[i]);
         }
     }
