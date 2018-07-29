@@ -7,6 +7,14 @@ package NCR.jbcz.Base100;
  */
 public class exam67 {
     public static void main(String[] args) {
+        Double d1 = new Double(7.2);
+        Double d2 = new Double("7.2");
+        if (d1.equals(d2)) {
+            System.out.println("Equal");
+        }
+        else {
+            System.out.println("Unequal");
+        }
 
     }
 }
