@@ -10,12 +10,11 @@ import javax.lang.model.element.NestingKind;
 public class exam65 {
     public static void main(String[] args) {
         String str = "Welcome to China!";
-        char c[];
-        c = new char;
-        ;
+        char c[] = new char[str.length()];
+        str.getChars(0, str.length(), c, 0);
         int i;
-        for (i = 0; i < str.length(); i++) {
-            System.out.println(c[i]);
+        for (i = c.length - 1; i >= 0; i--) {
+            System.out.print(c[i]);
         }
     }
 }
