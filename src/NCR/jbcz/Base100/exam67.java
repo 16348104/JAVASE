@@ -14,6 +14,5 @@ public class exam67 {
         } else {
             System.out.println("Unequal");
         }
-
     }
 }
