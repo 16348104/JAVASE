@@ -11,8 +11,7 @@ public class exam67 {
         Double d2 = new Double("7.2");
         if (d1.equals(d2)) {
             System.out.println("Equal");
-        }
-        else {
+        } else {
             System.out.println("Unequal");
         }
 
